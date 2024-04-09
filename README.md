@@ -8,7 +8,9 @@
 These points align with the issues of transparency and fairness in the property tax system<br>
 
 # Approach to address the two issues immediately below
-Factors that lead a property owner to appeal. Parts played by factors like race or median income<br><br>
+* Factors that lead a property owner to appeal<br>
+* Parts played by factors like race or median income<br><br>
+
 Based on the surveys, voters believe that the property tax is the most unfair worst tax. Therefore the property owners was introduced to use appealling to reduced the assesed value. So here we use a bigger, enriched dataset in this project, this dataset consisting of 19036 properties that have sold in the three regions of Cook County (Northwest Suburban Cook County, Chicago, Southwest Suburban Cook County), among which 9018 properties appealled (47.4%), and the winning case is 5587, which mean the wining rate is 62%, overall CCAO and BOR granted 29% of those properties some reduction in their assesed values.
 This dataframe contains 26 columns,and all 26 columns have missing value<br>
 Remove Outliers( for min value is 50K, min squre foot is 300)<br>
