@@ -1,0 +1,103 @@
+Variable Name,Variable Definition
+pin14,Property Index Number
+pin10,First 10 digits of pin corrosponding to buildings
+tract2010,2010 census tract
+community,Chicago community area
+spmap_census2010_id,Mapping variable for 2010 census tracts
+spmap_community_id,Mapping variable for community areas
+taxyear,The year monies will be applied to; (Warrant Year in APIN)
+tri,Triennial Area
+class,Classification
+major_class,Residential class type
+condo,Idicator for Condominium
+sf,Indicator for not condominium
+tname,Taxpayer name
+tadres,Taxpayer mailing address
+tcity,Taxpayer mailing city
+tstate,Taxpayer mailing state
+tzip,Taxpayer maliing zip
+pnum,House number of the taxpayer's property
+pdir,Direction of the taxpayer's property
+pstreet,Street name where the taxpayer's property
+psuf,Street classification of the taxpayer's property
+pcity,City where taxpayer's property is located
+pstate,State where taxpayer's property is located
+pzip,Zip code of taxpayer's property.
+value,Sale price (net of personal property)
+percentile,"Percentile of value in year, 100 percentiles"
+av1,First-pass assessed value
+appeal_flag,Indicator for appeal attempt
+taxes,Total taxes paid
+longex,Longtime exemption
+homeowner,Dummy for homeowner occupied
+homeex,Homeowners' exemption
+lawyer,Name of tax rep
+white,% White: 2010 Census
+black,% Black: 2010 Census
+nativ,% Native American: 2010 Census
+asian,% Asian: 2010 Census
+two,% Two or more races: 2010 Census
+hispanic,% hispanic: 2010 Census
+college,% Holding a BA or higher: 2008-2012 ACS
+medhinc,Median household income: 2008-2012 ACS
+poverty,% Below poverty threshold: 2008-2012 ACS
+totalpop,Total population: 2010 Census
+geo_merge,Dummy for successful merge with geography file
+type,Type of residence
+use,Single or multi-family
+apts,Number of apartments
+walls,Exterior construction
+roof,Roof construction
+rooms,Number of rooms
+beds,Number of bedrooms
+basement,Construction of basement
+basementfin,Finished basement
+centralheat,Central heating
+otherheat,Other heating
+ac,Central air conditioning
+fireplaces,Number of fireplaces
+attic,Type of attic
+atticfin,Finished attic
+fb,Full bathrooms
+hb,Half bathrooms
+plantype,Architectural plan type
+designtype,? Cathedral ceilings?
+quality,Construction quality
+rnv,Construction rennovation or new
+site,Site desireability
+garagesize,Size of garage
+garageconstruction,Type of garage construction
+garageattached,Attached garage
+garagearea,Garage in area
+garageconstruction2,Type of garage construction
+garageattached2,Attached garage
+garagearea2,Garage in area
+porch,Enclosed porch
+imp,Additional improvements
+squarefoot,Building square foot area
+repair,State of repair
+neqclass,Property class
+age,Age of structure
+hdsf,lot size
+nbhd,UNUSED
+mltind,UNUSED
+mltcode,UNUSED
+vol,Volume
+lon  ,longitude
+lat,latitude
+ncu,UNUSED
+in_state,Taxpayer mailing state in Illinois or other state
+walkscore,"walkability score on a 100 point scale, using property distance to amenities.    https://www.walkscore.com/methodology.shtml"
+walkfac,walkscores transferred into a 4 level category variable ranging from “car-dependent” to “Walker’s Paradise”.    https://www.walkscore.com/methodology.shtml
+elem_score,"Greatschools rating for closest public neighborhood elementary school (distance measured with haversine formula) Greatschools Rating based on the 
+Test Score Rating, Student or Academic Progress Rating, College Readiness Rating, and Equity Rating)  https://www.greatschools.org/gk/ratings/"
+high_school_score,"Greatschools rating for closest public neighborhood high school (distance measured with haversine formula) Greatschools Rating based on the Test Score 
+Rating, Student or Academic Progress Rating, College Readiness Rating, and Equity Rating)  https://www.greatschools.org/gk/ratings/"
+average_school_score,average of associated elementary and high school Greatschools ratings
+rating_med,median YELP rating for 20 nearest establishments
+rating_med_5,median YELP rating for 5 nearest establishments
+numreviews_med,median number of YELP reviews for 20 nearest establishments
+numreviews_med_5,median number of YELP reviews for 5 nearest establishments
+num_reviews_med_lessthank1km,median number of YELP reviews for 20 nearest establishments less than 1km away
+dist_med,median distance in km for 20 nearest establishments on YELP
+dist_med_lessthan1k,median distance of nearest (up to) 20 establishments less than 1 km away
