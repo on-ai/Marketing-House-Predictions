@@ -14,7 +14,9 @@ These points align with the issues of transparency and fairness in the property 
 Based on the surveys, voters believe that the property tax is the most unfair worst tax. Therefore the property owners was introduced to use appealling to reduced the assesed value. So here we use a bigger, enriched dataset in this project, this dataset consisting of 19036 properties that have sold in the three regions of Cook County (Northwest Suburban Cook County, Chicago, Southwest Suburban Cook County), among which 9018 properties appealled (47.4%), and the winning case is 5587, which mean the wining rate is 62%, overall CCAO and BOR granted 29% of those properties some reduction in their assesed values.
 This dataframe contains 26 columns,and all 26 columns have missing value<br>
 Remove Outliers( for min value is 50K, min squre foot is 300)<br>
-Creation of a new column variable Appeal_1_0 to represent that property has appealled or not, we also add column Log_Value and Log_medhinc<br>
+Creation of a new column variable Appeal_1_0 to represent that property has appealled or not, we also add column Log_Value and Log_medhinc<br><br><br>
+![HeatMap01](./pictures/FirstHeatMap.png "HeatMap01")<br><br><br>
+![HeatMap02'](./pictures/SecondHeatMap.png "HeatMap2")<br><br><br>
 
 Some of these correlations may be driven by the fact that taxpayers self-select as to whether they appeal their taxes or not:<br>
 First pass assessed value, property actual sale value (or Log_value) and squarefoot, median household income of the property owner, percentage of eligible adults in the property's census tract with a 4 year college degree and average school score are all positive correlated with the property owner would appeal or not, it shows high income, higher level of education and rich home owner has bigger posibility to make appeal, also regard to race,  white compare with other race has bigger posibility to make appeal.<br>
